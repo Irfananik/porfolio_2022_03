@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&family=Karla:wght@300&family=Noto+Sans:ital@1&family=Oswald&family=Permanent+Marker&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #282C34;
+}
+
+
+/* navigation bar */
+
+.banner-section {}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 16px;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    font-size: 22px;
+    color: aquamarine;
+}
+
+
+/* navigation bar end */
+
+
+/* banner style */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-left {
+    width: 40%;
+}
+
+.banner-right {
+    width: 40%;
+}
+
+.banner-had {
+    margin-bottom: 20px;
+}
+
+.banner-had :nth-child(1) {
+    color: aqua;
+    font-size: 38px;
+    line-height: 2;
+}
+
+.banner-had :nth-child(2) {
+    color: aquamarine;
+    font-size: 40px;
+}
+
+.banner-text {
+    font-size: 18px;
+    color: rgb(159, 226, 204);
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.had-btn {
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.had-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(21, 221, 154);
+    font-size: 16px;
+    border: none;
+}
+
+.had-btn:hover {
+    background-color: rgb(149, 149, 149);
+    border: none;
+}
+
+.banner-img {
+    margin-left: 130px;
+}
+
+.banner-img img {
+    width: 600px;
+    height: 600px;
+}
+
+
+/* banner style end */
